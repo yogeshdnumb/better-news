@@ -1,0 +1,14 @@
+.ArticleCard {
+  display: flex;
+  // min-height: 8em;
+  justify-content: space-between;
+  align-items: center;
+
+  color: var(--mantine-color-text);
+  transition: transform 0.1s;
+
+  &:hover {
+    transform: scale(1.01);
+    // background: red;
+  }
+}
